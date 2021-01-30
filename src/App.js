@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import searchForm from "./searchForm";
 
 class App extends React.component {
   constructor(props) {
@@ -11,9 +12,14 @@ class App extends React.component {
 render;
 
 return (
-  <div className="medhead">
-    <header>Everyday Medical Dictionary</header>
-  </div>
+  <html>
+    <div className="medhead">
+      <h1>Everyday Medical Dictionary</h1>
+    </div>
+    <div>
+      <searchForm />
+    </div>
+  </html>
 );
 ReactDOM.render(element, document.getElementById("root"));
 
