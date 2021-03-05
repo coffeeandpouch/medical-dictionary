@@ -8,8 +8,10 @@ class App extends React.component {
     this.state = {};
   }
 }
+render() {
+  searchForm ;
+}
 
-render;
 
 return (
   <html>
