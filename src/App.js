@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import searchForm from "./searchForm";
+import searchForm from "./searchForm/searchForm";
 
 class App extends React.component {
   render() {
