@@ -2,7 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import searchForm from "./searchForm/searchForm";
 
-class App extends React.component {
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      searchTerm: [],
+      definition: "",
+    };
+  }
   render() {
     return (
       <html>
