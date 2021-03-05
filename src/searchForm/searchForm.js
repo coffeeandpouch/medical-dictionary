@@ -1,5 +1,4 @@
 import React from "react";
-import searchForm from "./searchForm";
 
 export function SearchForm() {
   return (
@@ -13,4 +12,4 @@ export function SearchForm() {
   );
 }
 
-export default searchForm;
+export default SearchForm;

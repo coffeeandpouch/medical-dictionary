@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import searchForm from "./searchForm/searchForm";
+import SearchForm from "./SearchForm/SearchForm";
 
 class App extends React.Component {
   constructor(props) {
@@ -17,7 +17,7 @@ class App extends React.Component {
           <h1>Everyday Medical Dictionary</h1>
         </div>
         <div>
-          <searchForm />
+          <SearchForm />
         </div>
       </html>
     );
