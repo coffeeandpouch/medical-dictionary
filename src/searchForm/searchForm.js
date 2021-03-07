@@ -6,6 +6,7 @@ export function SearchForm() {
       <form>
         <label for="search-term">
           <input id="search-term" type="text" name="search-term"></input>
+          <input type="submit" />
         </label>
       </form>
     </div>

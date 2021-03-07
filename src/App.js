@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import SearchForm from "./SearchForm/SearchForm";
+import "./index.css";
 
 class App extends React.Component {
   constructor(props) {
@@ -12,14 +13,16 @@ class App extends React.Component {
   }
   render() {
     return (
-      <html>
-        <div className="medhead">
-          <h1>Everyday Medical Dictionary</h1>
-        </div>
-        <div>
-          <SearchForm />
-        </div>
-      </html>
+      <main>
+        <body>
+          <div className="medhead">
+            <h1>Everyday Medical Dictionary</h1>
+          </div>
+          <div>
+            <SearchForm />
+          </div>
+        </body>
+      </main>
     );
     // eslint-disable-next-line no-unreachable
     ReactDOM.render(<App />, document.getElementById("root"));
