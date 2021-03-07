@@ -5,7 +5,12 @@ export function SearchForm() {
     <div>
       <form>
         <label for="search-term">
-          <input id="search-term" type="text" name="search-term"></input>
+          <input
+            id="search-term"
+            type="text"
+            aria-label="searchTerm"
+            name="search-term"
+          ></input>
           <input type="submit" />
         </label>
       </form>

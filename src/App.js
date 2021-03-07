@@ -13,16 +13,16 @@ class App extends React.Component {
   }
   render() {
     return (
-      <main>
-        <body>
+      <body>
+        <main>
           <div className="medhead">
             <h1>Everyday Medical Dictionary</h1>
           </div>
           <div>
             <SearchForm />
           </div>
-        </body>
-      </main>
+        </main>
+      </body>
     );
     // eslint-disable-next-line no-unreachable
     ReactDOM.render(<App />, document.getElementById("root"));
