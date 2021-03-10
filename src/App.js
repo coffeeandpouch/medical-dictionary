@@ -11,12 +11,14 @@ class App extends React.Component {
       definition: "",
     };
   }
+
   render() {
     return (
       <body>
         <main>
           <div className="medhead">
             <h1>Everyday Medical Dictionary</h1>
+            <h3>The search tool for physicians use to reference diagnoses</h3>
           </div>
           <div>
             <SearchForm />
